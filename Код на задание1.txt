@@ -1,0 +1,160 @@
+<html>
+<head>
+<script>
+function draw(){
+var canvas = document.getElementById('canvas');
+var ctx = canvas.getContext('2d');
+//крыша
+ctx.beginPath();
+ctx.moveTo(770,10);
+ctx.lineTo(1100,300);
+ctx.lineTo(450,300);
+ctx.fillStyle = 'Sienna';
+ctx.fill();
+//птица4
+ctx.beginPath();
+ctx.moveTo(1000,70);
+ctx.lineTo(1100,120);
+ctx.lineTo(1070,120);
+ctx.fillStyle = 'black';
+ctx.fill();
+ctx.beginPath();
+ctx.moveTo(1150,70);
+ctx.lineTo(1100,120);
+ctx.lineTo(1070,120);
+ctx.fillStyle = 'black';
+ctx.fill();
+//птица5
+ctx.beginPath();
+ctx.moveTo(1200,130);
+ctx.lineTo(1300,180);
+ctx.lineTo(1270,180);
+ctx.fillStyle = 'black';
+ctx.fill();
+ctx.beginPath();
+ctx.moveTo(1350,130);
+ctx.lineTo(1300,180);
+ctx.lineTo(1270,180);
+ctx.fillStyle = 'black';
+ctx.fill();
+//птица2
+ctx.beginPath();
+ctx.moveTo(200,30);
+ctx.lineTo(300,80);
+ctx.lineTo(270,80);
+ctx.fillStyle = 'black';
+ctx.fill();
+ctx.beginPath();
+ctx.moveTo(350,30);
+ctx.lineTo(300,80);
+ctx.lineTo(270,80);
+ctx.fillStyle = 'black';
+ctx.fill();
+//птица1
+ctx.beginPath();
+ctx.moveTo(100,140);
+ctx.lineTo(200,190);
+ctx.lineTo(170,190);
+ctx.fillStyle = 'black';
+ctx.fill();
+ctx.beginPath();
+ctx.moveTo(250,140);
+ctx.lineTo(200,190);
+ctx.lineTo(170,190);
+ctx.fillStyle = 'black';
+ctx.fill();
+//птица3
+ctx.beginPath();
+ctx.moveTo(310,200);
+ctx.lineTo(410,250);
+ctx.lineTo(380,250);
+ctx.fillStyle = 'black';
+ctx.fill();
+ctx.beginPath();
+ctx.moveTo(460,200);
+ctx.lineTo(410,250);
+ctx.lineTo(380,250);
+ctx.fillStyle = 'black';
+ctx.fill();
+
+//палка для крепления забора
+ctx.fillStyle = 'chocolate';
+ctx.fillRect(20,500,1400,40);
+//забор1
+ctx.fillStyle = 'chocolate';
+ctx.fillRect(40,450,40,250);
+//забор2
+ctx.fillStyle = 'chocolate';
+ctx.fillRect(110,450,40,250);
+//забор3
+ctx.fillStyle = 'chocolate';
+ctx.fillRect(180,450,40,250);
+//забор4
+ctx.fillStyle = 'chocolate';
+ctx.fillRect(250,450,40,250);
+//забор5
+ctx.fillStyle = 'chocolate';
+ctx.fillRect(320,450,40,250);
+//забор6
+ctx.fillStyle = 'chocolate';
+ctx.fillRect(390,450,40,250);
+//забор7
+ctx.fillStyle = 'chocolate';
+ctx.fillRect(460,450,30,250);
+//забор8
+ctx.fillStyle = 'chocolate';
+ctx.fillRect(1070,450,40,250);
+//забор9
+ctx.fillStyle = 'chocolate';
+ctx.fillRect(1140,450,40,250);
+//забор10
+ctx.fillStyle = 'chocolate';
+ctx.fillRect(1210,450,40,250);
+//забор11
+ctx.fillStyle = 'chocolate';
+ctx.fillRect(1280,450,40,250);
+//забор12
+ctx.fillStyle = 'chocolate';
+ctx.fillRect(1350,450,40,250);
+//дымоход
+ctx.fillStyle = 'sienna';
+ctx.fillRect(550,60,80,150);
+//дом
+ctx.fillStyle = 'peru';
+ctx.fillRect(500,300,550,400);
+//дверь
+ctx.fillStyle = 'BurlyWood';
+ctx.fillRect(820,450,160,250);
+//свет в окне (синий)
+ctx.fillStyle = 'powderblue';
+ctx.fillRect(570,400,150,150);
+//рамка для окна
+ctx.fillStyle = 'white';
+ctx.fillRect(570,400,10,150);
+//рамка для окна
+ctx.fillStyle = 'white';
+ctx.fillRect(710,400,10,150);
+//рамка по середине окна
+ctx.fillStyle = 'white';
+ctx.fillRect(640,400,10,150);
+//рамка сверху
+ctx.fillStyle = 'white';
+ctx.fillRect(570,400,150,10);
+//рамка снизу
+ctx.fillStyle = 'white';
+ctx.fillRect(570,550,150,10);
+//замок для ручки
+ctx.fillStyle = 'black';
+ctx.fillRect(830,590,10,10);
+//ручка двери
+ctx.fillStyle = 'black';
+ctx.fillRect(830,592,25,5);
+
+}
+</script>
+</head>
+<body onload="draw();">
+<canvas id="canvas" width="1400" height="1400">
+</canvas>
+</body>
+</html>
